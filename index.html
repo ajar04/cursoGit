@@ -9,15 +9,25 @@
 	img{
 		max-width: 100%;
 		vertical-align: top;
+		/*display: none;*/
 	}
 
+		img#reponsive{
+			display: none;
+		}
+	@media screen and (max-width: 768px){
+		img#reponsive{
+			display: block;
+		}
+	}
 </style> 
 </head>
 <body>
+	<img src="images\invie-responsive.png" alt="" id="reponsive">
 	<img src="images\header.jpg">
 	<img src="images\hero.jpg">
 	<img src="images\acustica.jpg">
-	<img src="images\clasica.jpg">
+	
 	
 </body>
 </html>
